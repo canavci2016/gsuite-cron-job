@@ -1,0 +1,28 @@
+{
+  "NODE_ENV": "development",
+  "PORT": 8081,
+  "DEBUG": "developer2",
+  "CRON_PATTERN": "43 17 * * *",
+  "MSSQL_DB1_HOST": "",
+  "MSSQL_DB1_DATABASE": "",
+  "MSSQL_DB1_USERNAME": "",
+  "MSSQL_DB1_PASSWORD": "",
+  "APPS": [
+    {
+      "DOMAIN_NAME": "cc.org",
+      "DOMAIN_ADMIN_EMAIL": "cc@cc.org",
+      "COMPANY_ID": 66,
+      "COMPANY_NAME": "cc",
+      "SERVICE_ACCOUNT_CLIENT_EMAIL": "cc",
+      "SERVICE_ACCOUNT_PRIVATE_KEY": "cc"
+    },
+    {
+      "DOMAIN_NAME": "cc",
+      "DOMAIN_ADMIN_EMAIL": "cc@cc",
+      "COMPANY_ID": 66,
+      "COMPANY_NAME": "Fenerbahçe",
+      "SERVICE_ACCOUNT_CLIENT_EMAIL": "cc",
+      "SERVICE_ACCOUNT_PRIVATE_KEY": "cc"
+    }
+  ]
+}

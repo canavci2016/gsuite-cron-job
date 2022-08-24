@@ -1,0 +1,30 @@
+{
+  "name": "gsuite-cron-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "start-container-orchestration": "node app.js",
+    "install-service": "winser -i",
+    "uninstall-workplace-otp-service": "winser -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "googleapis": "^71.0.0",
+    "sequelize": "^6.3.5",
+    "tedious": "^9.2.3",
+    "winser": "^1.0.3",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.2"
+  },
+  "devDependencies": {
+    "mongoose": "^5.12.3"
+  }
+}
